@@ -1,3 +1,4 @@
+import os
 import typer
 from typing_extensions import Annotated
 
@@ -60,7 +61,7 @@ def list_slave_hosts(
 def run_continuously(
     config_file: Annotated[
         str, typer.Argument(help="YAML config filename with filepath")
-    ] = "config.yaml",
+    ] = f"{os.path.join('src','parser','config.yaml')}",
 ):
     continuous_run(config_file=config_file)
 

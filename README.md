@@ -28,11 +28,15 @@ pip install -e .
 
 ## Usage
 
+Before first use it, it is recommended to drop any log files you want to use under the `data` folder.
+
 This comes with a CLI application, to run it, simply call the package and the command you may wish to execute. For a list of all the available commands run the application's help
 
 ```
 parser --help
 ```
+
+Note that the command `run-continuously` takes the path to the YAML config file as an argument. There is a config.yaml file you can use in the package's source code - remember to update the values accordingly or create your own version of the config file.
 
 ## Naming convention
 
