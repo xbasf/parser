@@ -9,4 +9,4 @@ time_init: # [optional] initial datetime expressed in ISO 8601 format. The value
 output_folder:
   output
 output_frequency: # in minutes
-  "600000"
+  "60"
