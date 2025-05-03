@@ -1,0 +1,12 @@
+log_filename:
+  data/connectionsALL.log
+log_tolerance: # in minutes
+  "5"
+target_hostname:
+  host33
+time_init: # [optional] initial datetime expressed in ISO 8601 format. The value None will set the time_init as now
+  20240102T063550+01
+output_folder:
+  output
+output_frequency: # in minutes
+  "600000"
